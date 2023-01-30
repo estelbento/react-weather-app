@@ -16,7 +16,14 @@ export default function App() {
           >
             open-sourced code
           </a>{" "}
-          by Estela Bento
+          by{" "}
+          <a
+            href="https://www.linkedin.com/in/estel-bento/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Estela Bento
+          </a>
         </footer>
       </div>
     </div>
