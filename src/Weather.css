@@ -1,9 +1,14 @@
+:root {
+  --branding-color: #1d454d;
+  --dark-color: #353535;
+}
+
 .Weather {
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid #dadde1;
+  border: 1px solid var(--branding-color);
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: var(--clear-color);
 }
 
 .Weather h1 {
@@ -35,14 +40,14 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: var(--branding-color);
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: var(--branding-color);
   font-size: 16px;
   font-weight: 400;
   position: relative;
