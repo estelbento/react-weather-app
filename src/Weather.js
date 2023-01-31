@@ -12,6 +12,7 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       temperature: response.data.temperature.current,
+      feelsLike: response.data.temperature.feels_like,
       wind: response.data.wind.speed,
       city: response.data.city,
       description: response.data.condition.description,
